@@ -1,0 +1,60 @@
+
+ORIGINAL MICROCANOPEN FROM 2003 AS DESCRIBED IN THE BOOK
+"EMBEDDED NETWORKING WITH CAN AND CANOPEN."
+
+NOTE: CANOPEN AND MICROCANOPEN HAVE GREATLY EVOLVED OVER THE LAST
+YEARS. THIS IMPLEMENTATION IS FOR REFERENCE, EDUCATIONAL AND STRICTLY
+NON-COMMERCIAL PURPOSES ONLY.
+
+SEE HTTP://WWW.CANOPENSTORE.COM/PIP/MICROCANOPEN-PLUS.HTML FOR THE
+LATEST, RECOMMENDED VERSION.
+
+
+MicroCANopen source code distribution
+=====================================
+
+COPYRIGHT: Embedded Systems Academy, Inc. 2002-2003.
+           All rights reserved. www.microcanopen.com
+           This software was written in accordance to the guidelines at
+           www.esacademy.com/software/softwarestyleguide.pdf
+
+DISCLAIM:  Read and understand our disclaimer before using this code!
+           www.esacademy.com/disclaim.htm
+
+LICENSE:   Users that have purchased a license for PCANopenMagic
+           (www.esacademy.com/software/pcanopenmagic)
+           may use this code in commercial projects.
+           Otherwise ONLY EDUCATIONAL USE is acceptable.
+
+VERSION:   2.00, Pf/Aa/Ck 21-OCT-03
+
+
+NOTE THAT THERE IS NO XA-C3 IMPLEMENTATION EXAMPLE IN THIS DISTRIBUTION.
+SEE VERSION V1.01 FOR PHILIPS XA-C3 SUPPORT.
+
+
+Directories in this release
+===========================
+
+\MCO
+Source c file "mco.c" with the entire MicroCANopen implementation.
+Definition file "mco.h" - contains configurable #define parameters.
+Definition file "mcohw.h" - defines HW driver interface.
+NOTE: The hardware drivers are implemented within the examples.
+
+\Utils
+Contains several files suitable for testing and debugging the examples.
+MicroCANopenExample.eds - Electronic Data Sheet for the nodes
+  implemented in the examples.
+.dbc and .cfg files for Vector CANalyzer
+
+\MCO_Example591
+Example implementation for Philips 8xC591 microcontroller.
+Refer to read_me.txt for more details.
+
+\MCO_ExampleCC01
+Example implementation for Atmel 89C51CC01 microcontroller.
+Refer to read_me.txt for more details.
+
+
+--------------- END --- OF --- FILE ---------------
